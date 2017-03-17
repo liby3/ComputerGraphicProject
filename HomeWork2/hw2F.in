@@ -1,0 +1,37 @@
+# Computer Graphics Hw2 Test Input F
+# copy file content to "hw2.in" and run "CG_Hw2_Sample.exe"
+
+reset
+scale 5.0 4.0 
+rotate 0 
+translate 0.0 0.0
+square
+
+reset
+scale 8.5 0.5 
+rotate 45
+translate 0.5 5.5
+square
+
+reset
+scale 8.5 0.5 
+rotate -45
+translate 0.5 5.5
+square
+
+reset
+scale 8.5 0.5 
+rotate -135
+translate 0.5 5.5
+square
+
+reset
+scale 8.5 0.5 
+rotate 135
+translate 0.5 5.5
+square
+
+# VIEW SCENE
+view -10.0 10.0 0.0 10.0 500 700 20 140
+
+end

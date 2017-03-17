@@ -1,0 +1,24 @@
+# Computer Graphics Hw2 Test Input B
+# copy file content to "hw2.in" and run "CG_Hw2_Sample.exe"
+
+# create 4 triangles and place them such that
+# the assembly looks like a 4-winged fan
+
+reset
+translate 0.0 -1.0
+scale 0.5 1.0
+rotate 0.0
+triangle
+
+rotate 90.0
+triangle
+
+rotate 90.0
+triangle
+
+rotate 90.0
+triangle
+
+view -3.0 3.0 -3.0 3.0 0.0 400.0 0.0 400.0
+
+end

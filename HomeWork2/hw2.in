@@ -1,0 +1,13 @@
+# Computer Graphics Hw2 Test Input A
+# copy file content to "hw2.in" and run "CG_Hw2_Sample.exe"
+
+# create a square and its transformation
+reset
+scale 2.0 2.0
+rotate 45.0
+translate 10.0 10.0
+square
+scale 2.0 2.0
+view 0.0 20.0 0.0 20.0 100 400 100 400
+
+end

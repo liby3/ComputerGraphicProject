@@ -1,0 +1,13 @@
+reset
+#scale 1 1 1
+#rotate 0 0 0
+#translate 0 0 0
+rotate 0 90 0
+translate 3 0 0
+object teapot.asc
+viewport 0 800 0 600
+observer 5 5 5 0 0 0 0 1 100 45
+#observer 0 10 10 0 0 0 0 1 1000 30
+#viewport 0 800 0 600
+display
+end

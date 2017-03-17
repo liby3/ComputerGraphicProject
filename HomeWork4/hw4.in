@@ -1,0 +1,86 @@
+##Example1
+#background 0.2 0.5 0.7
+#reset
+#scale 2.5 2.5 2.5
+#rotate 0 15 0
+#object teapot.asc 1.0 0.0 0.0 0.4 0.6 30
+#light 1 1.0 -2.0 5.0 10.0
+#light 2 0.7 0.0 10.0 0.0
+#light 3 0.6 10.0 10.0 10.0
+#viewport 0 600 0 600
+#observer 10 10 10 0 0 0 0 0.1 1000 45
+#display
+#end
+
+#Example3
+#reset
+#scale 2 2 2
+#scale 5.0 0.25 0.25
+#object cube.asc 0.0 1.0 0.0 0.8 0.2 1
+
+#reset
+#scale 2 2 2
+#scale 0.25 5.0 0.25
+#object cube.asc 0.0 1.0 0.0 0.8 0.2 1
+
+#reset
+#scale 2 2 2
+#scale 0.25 0.25 5.0 
+#object cube.asc 0.0 1.0 0.0 0.8 0.2 1
+
+#reset
+#scale 2 2 2
+#rotate 180 0 0
+#translate -1.0 0.0 -1.0
+#object grid4x4.asc 1.0 0.0 0.0 0.8 0.2 1
+
+#reset
+#scale 2 2 2
+#translate -1.0 0 1
+#object grid4x4.asc 1.0 0.0 0.0 0.8 0.2 1
+
+#reset
+#scale 2 2 2
+#translate 1.0 0.0 1.0
+#object grid4x4.asc 1.0 0.0 0.0 0.8 0.2 1
+
+#reset
+#scale 2 2 2
+#translate 1.0 0.0 -1.0
+#object grid4x4.asc 1.0 0.0 0.0 0.8 0.2 1
+
+#light 1 0.8 0.0 10.0 0.0
+#viewport 0 600 0 600
+#observer 10 10 10 0 0 0 0 0.1 1000 30
+#display
+#end
+
+
+
+#Example2
+background 0.2 0.3 0.4
+reset
+object skull.asc 1.0 0.0 0.0 0.7 0.3 5
+reset
+scale 0.2 0.2 0.2
+translate 0.26 0.08 0.28
+object cube.asc 0.9 0.9 0.9 0.9 0.1 1
+reset
+scale 0.2 0.2 0.2
+translate -0.26 0.08 0.28
+object cube.asc 1.0 1.0 1.0 0.9 0.1 1
+reset
+scale 0.05 0.05 0.05
+translate 0.26 0.08 0.46
+object cube.asc 0.5 0.5 0.0 0.7 0.3 5
+reset
+scale 0.05 0.05 0.05
+translate -0.26 0.08 0.46
+object cube.asc 0.5 0.5 0.0 0.7 0.3 5
+light 1 1.0 -2.0 5.0 10.0
+light 2 0.7 0.0 10.0 0.0
+light 3 0.6 10.0 10.0 10.0
+viewport 0 600 0 600
+observer 0 0 2 0 0 0 0 0.1 1000 40
+display
+end

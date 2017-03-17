@@ -1,0 +1,30 @@
+reset
+object skull.asc
+observer 0 0 2 0 0 0 0 0.1 1000 40
+viewport 0 800 0 600
+display
+
+reset
+scale 0.2 0.2 0.2
+translate 0.26 0.08 0.28
+object cube.asc
+
+reset
+scale 0.2 0.2 0.2
+translate -0.26 0.08 0.28
+object cube.asc
+
+reset
+scale 0.05 0.05 0.05
+translate 0.26 0.08 0.46
+object cube.asc
+
+reset
+scale 0.05 0.05 0.05
+translate -0.26 0.08 0.46
+object cube.asc
+
+observer 0 0 2 0 0 0 0 0.1 1000 40
+viewport 0 800 0 600
+display
+end
